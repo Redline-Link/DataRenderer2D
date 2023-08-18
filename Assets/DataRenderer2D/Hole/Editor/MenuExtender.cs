@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 
 namespace geniikw.DataRenderer2D.Hole.Editor
@@ -35,3 +36,4 @@ namespace geniikw.DataRenderer2D.Hole.Editor
        
     }
 }
+#endif

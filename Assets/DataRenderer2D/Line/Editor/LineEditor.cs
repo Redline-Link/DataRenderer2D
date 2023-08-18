@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditor.UI;
 
@@ -43,6 +44,4 @@ namespace geniikw.DataRenderer2D.Editors {
     public class NoRenderLineEditor : LineEditor { }
 
 }
-
-
-
+#endif

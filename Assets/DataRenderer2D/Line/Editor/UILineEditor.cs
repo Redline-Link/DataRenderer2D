@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor.UI;
 using UnityEditor;
 
@@ -38,3 +39,4 @@ namespace geniikw.DataRenderer2D.Editors
         }
     }
 }
+#endif
